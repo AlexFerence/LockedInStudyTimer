@@ -1,0 +1,60 @@
+body {
+	background-color: #383838;
+	color: white;
+}
+
+.no-focus-outline a:focus,
+.no-focus-outline button:focus {
+  outline: none;
+}
+
+button {
+	outline-style:none;
+	box-shadow:none;
+	border-color:transparent;
+}
+
+
+#myProgress {
+  width: 100%;
+  background-color: #B8B8B8;
+  margin-bottom: 10px;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  
+  border-radius: 100;
+  margin-bottom: 15px;
+}
+
+.bar {
+  width: 1%;
+  height: 30px;
+  background-color: #66CD00;
+  border-radius: 100;
+}
+
+.breaking {
+	background-color: #ff3232;
+}
+
+.btn {
+	border: none;
+	outline: none;
+
+}
+
+#top {
+	margin-top: 70px;
+}
+
+
+
+
+
+img {
+	height: 15px;
+	margin-bottom: 5px;
+}

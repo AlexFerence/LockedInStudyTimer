@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="sourceFiles/bootstrap.min.css">
+    <link rel="stylesheet" href="sourceFiles/styles.css">
+
+    <title>CLEAN</title>
+  </head>
+  <body>
+
+ <audio id="myAudio">
+  <source src="sourceFiles/alert.mp3" type="audio/ogg">
+  <source src="sourceFiles/alert.mp3" type="audio/mpeg">
+</audio>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+  <a class="navbar-brand" href="#"></span><img id="logo" src="https://image.flaticon.com/icons/svg/44/44594.svg">Locked In Study Timer</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+ -->      <!-- <li class="nav-item">
+        <a class="nav-link" href="aboutUs.html">About</a>
+      </li> -->
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Stats
+        </a>
+        <div class="dropdown-menu" aria-labelledby="hello">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something e here</a>
+        </div>
+      </li> -->
+    </ul>
+
+  <li class=" nav-item navbar-nav navbar-right">
+        <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Today: <span id="dailyCounter">0</span>
+        </a>
+        <!-- <div class="dropdown-menu" aria-labelledby="hello">
+          <a class="dropdown-item" href="#">Monthly: <span id="monthlyCounter">0</span></a>
+          <a class="dropdown-item" href="#">Yearly: <span id="yearlyCounter">0</span> </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">My Statistics</a>
+        </div> -->
+      </li>
+  </div>
+</div>
+</nav>
+
+<div class="container">
+  <div class="row" id="top">
+    <div class="col-md-12 d-flex justify-content-center">
+      <h1 id="time">25:00</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div id="myProgress">
+        <div id="myBar" class="bar">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 d-flex justify-content-center">
+      <div>
+        <button style="outline-style:none;
+box-shadow:none;
+border-color:transparent; "id="move" class="btn btn-secondary"><img src='imgs/play.png' class='controller'></button>
+        <button style="outline-style:none;
+box-shadow:none;
+border-color:transparent; " id="pause" class="btn btn-secondary"><img src="imgs/pause.png" class="controller"></button>
+        <button style="outline-style:none;
+box-shadow:none;
+border-color:transparent; " id="reset" class="btn btn-secondary"><img src="imgs/reset.png" class="controller"></button>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- 
+
+<div class="container">
+    <h1 id="time">25:00</h1>
+    <div id="myProgress">
+      <div id="myBar" class="bar"></div>
+    </div>
+    <button id="move" class="btn btn-secondary">Move</button>
+    <button id="pause" class="btn btn-secondary">Pause</button>
+    <button id="reset" class="btn btn-secondary">Reset</button>
+  </div>
+</div> -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="sourceFiles/bootstrap.min.js"></script>
+    <script src="clean.js"></script>
+  </body>
+</html>
